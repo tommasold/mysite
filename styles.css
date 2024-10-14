@@ -1,21 +1,16 @@
-/* Reset dei margini e padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Stile generale del corpo */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
 header {
-    background: #35424a;
+    background: #5f9ea0; /* Blu mare calmo */
     color: #ffffff;
     padding: 60px 20px;
     text-align: center;
@@ -27,7 +22,7 @@ header h1 {
 }
 
 .highlight {
-    color: #e8491d;
+    color: #b2d3c2; /* Verde pastello chiaro */
 }
 
 header p {
@@ -38,7 +33,7 @@ header p {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #e8491d;
+    background: #87cefa; /* Azzurro chiaro */
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -46,7 +41,7 @@ header p {
 }
 
 .btn:hover {
-    background: #cf3e14;
+    background: #6495ed; /* Blu pastello più scuro */
 }
 
 /* Sezioni */
@@ -63,36 +58,38 @@ section {
 section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #35424a;
+    color: #35424a; /* Blu scuro */
 }
 
-#projects .project {
-    margin-bottom: 20px;
-}
-
-#projects .project h3 {
-    color: #e8491d;
-}
-
+/* Competenze con icone */
 #skills ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
 }
 
 #skills ul li {
-    background: #e8491d;
+    background: #87cefa;
     color: #ffffff;
     padding: 10px 15px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 50%;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #35424a;
+    background: #5f9ea0;
     color: #ffffff;
 }
+
